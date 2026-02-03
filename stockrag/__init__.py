@@ -2,14 +2,6 @@
 StockRAG - Modular RAG system for NYSE company information.
 
 Quick Start:
-    from stockrag import StockRAG
-
-    rag = StockRAG("AAPL", "Apple Inc.")
-    rag.load_annual_reports(["./reports/2024.pdf"])
-    rag.build_index()
-    response = rag.query("What was the revenue?")
-
-Functional API:
     from stockrag import create_context, load_annual_reports, build_index, query
 
     ctx = create_context("AAPL", "Apple Inc.")
@@ -20,9 +12,6 @@ Functional API:
 
 # Version
 __version__ = "0.1.0"
-
-# Main client class (facade)
-from stockrag.client import StockRAG
 
 # Context and configuration
 from stockrag.core.context import RAGContext
@@ -65,8 +54,6 @@ from stockrag.core.exceptions import (
 __all__ = [
     # Version
     "__version__",
-    # Main class
-    "StockRAG",
     # Core
     "RAGContext",
     "RAGConfig",
