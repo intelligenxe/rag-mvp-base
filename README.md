@@ -1,5 +1,5 @@
 # rag-mvp-base
-**rag-mvp-base** was derived from [rag-mvp-basic](https://github.com/intelligenxe/rag-mvp-basic) by refactoring the latter by converting class methods into standalone functions, each placed in independent files within a Python package.  This refactoring was done so that [different open-source contributors can work on separate files in isolation](https://claude.ai/share/aef2ee14-fa1b-49de-8902-ba51451b6fe1):
+**rag-mvp-base** was derived from [rag-mvp-basic](https://github.com/intelligenxe/rag-mvp-basic) through refactoring, which involved converting class methods into standalone functions, each placed in independent files within a Python package. This restructuring was done to enable [different open-source contributors to work on separate files in isolation](https://claude.ai/share/aef2ee14-fa1b-49de-8902-ba51451b6fe1):
 
 <img width="547" height="711" alt="Image" src="https://github.com/user-attachments/assets/1a002487-d859-4a48-9137-9ea42851eefb" />
 <img width="793" height="624" alt="Image" src="https://github.com/user-attachments/assets/14ebbb72-85db-481c-8fd9-005791a51c77" />
